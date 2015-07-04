@@ -1,0 +1,223 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+#account_tabs {
+	font-size: 90%;
+	margin: 20px 0;
+	margin:0 auto;
+	width:1170px
+}
+#account_tabs ul {
+	background: #fff;
+	padding-top: 4px;
+}
+#account_tabs li {
+	margin-left: 2px;
+	list-style: none;
+}
+#account_tabs ul li.active {
+	border-top:2px #FFFF66 solid;
+	background:#F5F5F5;
+}
+#account_tabs ul li.active a {
+	color: #333333;
+}
+#account_tabs .section {
+	background-color:#F5F5F5;
+	clear: both;
+	padding: 15px;
+	min-height: 200px;
+}
+#account_tabs .section h3 {
+	margin-bottom: 12px; text-align:center
+}
+#account_tabs .section p {
+	line-height: 150%;
+}
+#account_tabs ul li a {
+	text-decoration: none;
+	padding: 5px;
+	color: #000;
+	font-weight: bold;
+}
+.thumbs {
+	float:left;
+	border:#000 solid 1px;
+	margin-bottom:20px;
+	margin-right:20px;
+}
+#account_tabs a{text-decoration:none}
+#account_tabs .mydetails{color:#4D4D4D; float:left; width:100%; height:auto;}
+#account_tabs h3{width:100%; margin-bottom:5px; color:#424242; text-transform:uppercase; text-align:center; border:#EAEAEA 1px solid; background-color:#F5F5F5}
+#account_tabs .mydetails table td{width:200px}
+#account_tabs .mydetails table tr{width:100%}
+#account_tabs .mydetails table tr:nth-child(2n){background-color:#F4F4F4}
+#account_tabs .mydetails table tr td:first-child{padding-left:20px}
+#account_tabs .mydetails .mydetailsleft{width:530px; float:left}
+#account_tabs .mydetails .mydetailsright{width:250px; float:left; }
+#account_tabs .mydetails .mydetailsright table{background-color:#D9D9D9}
+#account_tabs .mydetails .mydetailsright a{text-decoration:none; color:#2D2D2D; text-transform:uppercase; font-size:10px;text-transform:uppercase; font-size:10px;margin-left:20px; border-bottom:#969696 1px solid; }
+#account_tabs .mydetails .mydetailsright a:hover{border-bottom:#FF8040 1px solid;}
+#account_tabs .mydetails .mydetailsright a.active{}
+#account_tabs .mydetails .myorder table{border:#DDD solid 1px;}
+#account_tabs .mydetails .myorder tr:first-child{  background-color:#F3F3F3}
+#account_tabs .mydetails .myorder tr td{border-collapse:collapse;}
+#cng_pwd{margin-top:10px}
+#account_tabs .btn_save{    margin: 2px;
+    padding: 0px;
+    color: #FFF;
+    font-size: 12px;
+    background:#FF8040;
+    border: 1px solid #DD6F00;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+}
+#account_tabs .btn_save:hover{box-shadow: 0px 1px 2px 1px #989898;}
+#account_tabs .btn_save:active {
+	position:relative;
+	top:1px;
+}
+#account_tabs .myaddress{width:500px; float:left}
+#account_tabs .myaddright{width:300px; float:left}
+#account_tabs .myaddright a{text-decoration:none; color:#2D2D2D; text-transform:uppercase; font-size:10px; margin-left:20px; border-bottom:#969696 1px solid; }
+#account_tabs .myaddright a:hover{border-bottom:#FF8040 1px solid;}
+
+#account_tabs .btn_cancel{margin: 2px;
+    padding: 0px;
+    color: #FFF;
+    font-size: 12px;
+    background:#969696;
+    border: 1px solid #818181;
+    cursor: pointer;
+    width: 150px;
+    height: 25px;
+}
+#account_tabs .btn_cancel:active {
+	position:relative;
+	top:1px;
+}
+#account_tabs .btn_cancel:hover{box-shadow: 0px 1px 2px 1px #989898;}
+#account_tabs .wishlistitem{width:890; margin-top:20px; height:150px; border:1px solid #C0C0C0;padding:5px;box-shadow: 0px 7px 6px -6px #E8E8E8; margin-bottom:5px;}
+#account_tabs .wishlistitem .cross{background:url(btn_window_close.gif) no-repeat right; width:20px; height:20px; position:absolute; }
+#account_tabs .wishlistitem:hover{transition: border 0.2s linear 0.2s, box-shadow 0.2s linear 0.2s; 
+-webkit-box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.2);
+-moz-box-shadow:1px 1px 8px 0px rgba(50, 50, 50, 0.2);
+box-shadow: 1px 1px 8px 0px rgba(50, 50, 50, 0.2);}
+#account_tabs .wishlistitem .wishlist_image{float:left;height:150px; text-align:center; vertical-align:middle;	 width:200px;}
+#account_tabs .wishlistitem .wishlist_desc {width:670px; color:#424242; float:left; vertical-align:middle;	}
+#account_tabs .wishlistitem .wishlist_desc p{margin-bottom:5px}
+#account_tabs .wishlistitem .wishlist_desc .name{overflow:auto; }
+#account_tabs .wishlistitem .wishlist_desc .brand{font-weight:700;color:marron}
+#account_tabs .wishlistitem .wishlist_desc .crossprice span{ text-decoration:line-through}
+#account_tabs .wishlistitem .wishlist_desc .price{font-weight:700} 
+
+#account_tabs .wishlistitem .rs{width:100%;overflow:hidden; }
+#account_tabs .container
+    {
+        display:block;
+        width: 100%;
+        height : auto ;
+        margin: 10px auto;
+    }
+ 
+   #account_tabs .item
+    {
+        display : block;
+        width : inherit ;
+        height : 30px;
+        line-height : 30px;
+        background-color:#D5D5D5 ;
+        border: 1px solid #ABABAB ;
+        cursor: pointer;
+        color:#424242;
+    }
+ #account_tabs .item span{ margin:0px 10px}
+ #account_tabs .item:hover {background:#ABABAB}
+
+  #account_tabs .item-data
+    {
+        display : none ;
+        width : inherit ;
+        height : auto ;
+        border: 1px solid #ccc;
+    }
+ 
+#account_tabs .active {
+        background:#ECECEC ;
+        color : #000 ;
+    }
+  #account_tabs .item-data table{width:100%;border-collapse:collapse;}
+#account_tabs .item-data table tr{text-align:center; vertical-align:top; }
+#account_tabs .item-data table tr:first-child{ background-color:#D5D5D5 ; border: 1px solid #ABABAB ;
+}
+#account_tabs .item-data table td{border:1px solid #C2C2C2; padding:5px}
+#account_tabs .item-data .status{ width:500px; float:left}
+#account_tabs .item-data .status p{margin:5px 0px}
+#account_tabs .item-data .cancel_order{float:left}
+#account_tabs .item-data .cancel_order input{margin: 2px;
+    padding: 0px;
+    color: #FFF;
+    font-size: 12px;
+    background:#808080;
+    border: 1px solid #575757;
+    cursor: pointer;
+    width: 100px;
+    height: 25px;}
+#account_tabs .item-data .cancel_order input:hover{box-shadow: 0px 1px 2px 1px #989898; background:#ABABAB}
+
+#account_tabs .item-data .cancel_order input:active {
+	position:relative;
+	top:1px;
+}
+#account_tabs .right{text-align:right}
+#accounttabMenu{ width:230px; margin-right:20px; float:left; position:relative; height:30px; }
+#accounttabContent{ position:relative; padding:5px; float:left; min-height:200px; height:auto;color:#444444; border:1px solid #D5D5D5; overflow:auto; width:900px }
+#accounttabContent .content{ display:none; } 
+#accounttabContent .actives{ display:block; }
+#account_tabs .menu{  width:100%; display:block;border:#D5D5D5 solid 1PX;}
+#account_tabs .menu li{padding:0; margin:0; list-style:none;text-align:center; }
+#account_tabs .menu li a{ text-align:center; padding-right:5px ; display:block; text-decoration:none;cursor:pointer; }
+#account_tabs .menu li a span{line-height:30px;  text-align:left; font-size:14px; font-weight:200; display:block; padding:0px 10px; }
+#account_tabs .menu li a span:hover{color:#EF6910}
+#account_tabs .menu li a.actives, .menu li a.actives:hover{line-height:30px;  }
+#account_tabs .menu li a.actives span, .menu li a.actives:hover span{color:#EF6910; outline:none}
+#account_tabs table{ border-collapse:collapse; border: 1px solid #F2F2F2}
+#account_tabs td{padding:5px 0px}
+#account_tabs input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+    width: 90%;
+    height: 20px;
+    padding: 0px 5px;
+    font: 12px/19px "Open Sans",Helvetica,Arial,sans-serif;
+}
+
+#account_tabs input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="email"]:focus{
+outline:1px solid #FF8040; transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;}
+.userimage{margin:5px; }
+.uploadimage{}
+.file_browse_wrapper {
+width: 26px;
+height: 28px;
+background: url('../new-images/24_upload.png') 0 0 no-repeat;
+border:none;
+overflow:hidden;
+opacity:.5;
+cursor:pointer
+}
+.file_browse_wrapper:hover{
+opacity:.8;
+cursor:pointer
+}
+.file_browse_wrapper:active {
+opacity:1}
+.file_browse{
+margin-left:-145px;
+opacity:0;
+-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+filter: progid:DXImageTransform.Microsoft.Alpha(Opacity=0);
+}
+.edit{ width:90px; float:right; text-decoration:none}
+.edit a{height:25px;text-transform:uppercase; font-size:10px;text-transform:uppercase; font-size:10px; border-bottom:#969696 1px solid; }
+.edit a:hover{border-bottom:#FF8040 1px solid;}
+.edit a:active{position:relative; top:1px}

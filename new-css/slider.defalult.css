@@ -1,0 +1,50 @@
+.owl-theme .owl-controls{margin-top:10px;text-align:center;-webkit-tap-highlight-color:transparent}.owl-theme .owl-controls .owl-nav [class*=owl-]{color:#fff;font-size:14px;margin:5px;padding:4px 7px;background:#d6d6d6;display:inline-block;cursor:pointer;-webkit-border-radius:3px;-moz-border-radius:3px;border-radius:3px}
+.owl-theme .owl-controls .owl-nav [class*=owl-]:hover{background:#869791;color:#fff;text-decoration:none}
+.owl-theme .owl-controls .owl-nav .disabled{opacity:.5;cursor:default}.owl-theme .owl-dots .owl-dot{display:inline-block;zoom:1;*display:inline}
+.owl-theme .owl-dots .owl-dot span{width:10px;height:10px;margin:5px 7px;background:#ffcc33;display:block;-webkit-backface-visibility:visible;-webkit-transition:opacity 200ms ease;-moz-transition:opacity 200ms ease;-ms-transition:opacity 200ms ease;-o-transition:opacity 200ms ease;transition:opacity 200ms ease;-webkit-border-radius:30px;-moz-border-radius:30px;border-radius:30px}.owl-theme .owl-dots .owl-dot.active span,.owl-theme .owl-dots .owl-dot:hover span{background:#ef6910}
+.home-banner .owl-prev,.home-banner .owl-next,#sfloorCarousel .owl-prev, #sfloorCarousel .owl-next  {
+    border: 2px solid rgb(214, 214, 214);
+    bottom: 10px;
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    position: absolute;
+    text-indent: -9999px;
+    transition: background-position 200ms ease 0s;
+    width: 35px;
+    z-index: 100;
+}
+.home-banner .owl-prev,#sfloorCarousel .owl-prev{background: url("../new-images/bannerarrow.png") no-repeat scroll -1px -2px rgba(0, 0, 0, 0) !important;
+    bottom: 33px;
+    right: 135px;
+
+}
+.home-banner .owl-next, #sfloorCarousel .owl-next{
+    background: url("../new-images/bannerarrow.png") no-repeat scroll -37px -2px rgba(0, 0, 0, 0) !important;
+right: 100px; bottom: 33px;
+}
+.home-banner .owl-next:hover,#sfloorCarousel .owl-next:hover {
+    background-position: -37px -38px !important
+}
+.home-banner .owl-prev:hover,#sfloorCarousel .owl-prev:hover {
+    background-position: 0 -38px !important
+}
+#recent-product .owl-prev,#recent-product .owl-next,.women-slider .owl-prev,.women-slider .owl-next  {
+    border: 2px solid rgb(214, 214, 214);
+   
+    cursor: pointer;
+    display: block;
+    height: 35px;
+    position: absolute;
+    text-indent: -9999px;
+    transition: background-position 200ms ease 0s;
+    width: 35px;
+    z-index: 100;
+}
+#recent-product .owl-prev,.women-slider .owl-prev {background:url("../new-images/collection-img.png") no-repeat scroll 5px 4px rgba(0, 0, 0, 0) !important;
+right: 133px;
+}
+#recent-product .owl-next,.women-slider .owl-next {
+    background: url("../new-images/collection-img.png") no-repeat scroll -36px 4px rgba(0, 0, 0, 0) !important;
+right: 100px;
+}

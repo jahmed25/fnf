@@ -1,0 +1,133 @@
+.loginregisterform{width:auto; min-height:300px; height:auto;  margin:0 auto; position:absolute; left:200px;  border-radius:10px; font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+.loginregisterform .loginform{width:333px; height:auto; float:left; margin:10px;}
+.loginregisterform .registerform{width:333px; height:auto; float:left;margin:10px;}
+.loginregisterform .midline{ float:left; width:1px; height:400px; margin:20px 20px 0px 40px;
+background: -moz-linear-gradient(top, rgba(249,219,49,0) 0%, rgba(249,219,49,0.8) 15%, rgba(249,219,49,1) 19%, rgba(249,219,49,1) 20%, rgba(252,194,47,1) 50%, rgba(242,213,48,1) 80%, rgba(242,213,48,1) 81%, rgba(242,213,48,0.8) 85%, rgba(242,213,48,0) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(249,219,49,0)), color-stop(15%,rgba(249,219,49,0.8)), color-stop(19%,rgba(249,219,49,1)), color-stop(20%,rgba(249,219,49,1)), color-stop(50%,rgba(252,194,47,1)), color-stop(80%,rgba(242,213,48,1)), color-stop(81%,rgba(242,213,48,1)), color-stop(85%,rgba(242,213,48,0.8)), color-stop(100%,rgba(242,213,48,0))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, rgba(249,219,49,0) 0%,rgba(249,219,49,0.8) 15%,rgba(249,219,49,1) 19%,rgba(249,219,49,1) 20%,rgba(252,194,47,1) 50%,rgba(242,213,48,1) 80%,rgba(242,213,48,1) 81%,rgba(242,213,48,0.8) 85%,rgba(242,213,48,0) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, rgba(249,219,49,0) 0%,rgba(249,219,49,0.8) 15%,rgba(249,219,49,1) 19%,rgba(249,219,49,1) 20%,rgba(252,194,47,1) 50%,rgba(242,213,48,1) 80%,rgba(242,213,48,1) 81%,rgba(242,213,48,0.8) 85%,rgba(242,213,48,0) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, rgba(249,219,49,0) 0%,rgba(249,219,49,0.8) 15%,rgba(249,219,49,1) 19%,rgba(249,219,49,1) 20%,rgba(252,194,47,1) 50%,rgba(242,213,48,1) 80%,rgba(242,213,48,1) 81%,rgba(242,213,48,0.8) 85%,rgba(242,213,48,0) 100%); /* IE10+ */
+background: linear-gradient(to bottom, rgba(249,219,49,0) 0%,rgba(249,219,49,0.8) 15%,rgba(249,219,49,1) 19%,rgba(249,219,49,1) 20%,rgba(252,194,47,1) 50%,rgba(242,213,48,1) 80%,rgba(242,213,48,1) 81%,rgba(242,213,48,0.8) 85%,rgba(242,213,48,0) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00f9db31', endColorstr='#00f2d530',GradientType=0 ); /* IE6-9 */
+}
+
+.loginregisterform .headtitle {
+	display: block;
+	margin-bottom:20px;
+	padding: 10px 0px 10px 30px;	
+	font-size: 23px;
+	text-align:center;
+	text-transform:uppercase;	
+	font-weight: 300;
+	
+	color: #232323;
+}
+.loginregisterform .headtitle span { border-bottom:2px solid orange; padding:5px}
+.loginregisterform table{width:350px}
+.loginregisterform th{text-align:right; padding-right:5px; padding-top:8px;	color:#575757; font-weight:300; vertical-align:top; font-size:14px}
+.loginregisterform td{color:#575757; font-size:14px}
+.loginregisterform td p{padding:0; margin:0;}
+
+.loginregisterform input[type="button"] {
+	height: 39px;
+	float:right;
+	background-color:orange;
+	opacity: 0.7;
+	text-transform:uppercase;
+	overflow: hidden;
+	margin: 10px 0 0 20px;
+	padding: 0 50px;
+	outline: none;
+	border: 0;
+	
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	outline:none;
+	cursor: pointer;
+}
+.loginregisterform input[type="button"]:hover {
+	background-color:orange;
+	opacity: 1;
+	transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+.loginregisterform input[type="button"]:active {
+	background-color:red;
+	position:relative;
+	top:1px;
+	transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+.loginregisterform input[disabled="disabled"] {height: 39px;
+	float:right;
+	background-color:#E1E1E1;
+	color:#A9A9A9;
+	text-transform:uppercase;
+	overflow: hidden;
+	margin: 10px 0 0 20px;
+	padding: 0 50px;
+	outline: none;
+	border: 0;
+	font-weight:bold;
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	
+	outline:none;
+	cursor: default;}
+.loginregisterform input[disabled="disabled"]:hover 
+{
+    background-color:#E1E1E1;
+	color:#A9A9A9;
+	opacity:0.7;
+	transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+}
+.loginregisterform input[disabled="disabled"]:active {
+	background-color:#E1E1E1;
+	color:#A9A9A9;
+	}
+
+.loginregisterform input[type="text"],input[type="number"],input[type="password"],input[type="email"] {display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	height: 39px;
+	padding: 8px 10px;
+	outline: none;
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 5px;
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #404040;
+	transition: border-color 0.2s ease 0s;
+	appearance: normal;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.loginregisterform input{margin-top:10px; border:2px solid silver}
+.loginregisterform input[type="text"]:focus,input[type="number"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="radio"]:focus{border:1px solid #FF8000; transition: border-color 0.3s ease 0.2s;}
+.loginregisterform .gender { line-height:55px}
+.loginregisterform .gender span{ margin-left:15px; margin-right:5px}
+.loginregisterform .offercheck{font-size:13px; text-align:center; line-height:30px}
+.loginregisterform  .x{ font-size:25px; float:right; margin-right:10px; text-decoration:none; z-index:1000px;}
+.loginregisterform  .x:hover{ color:#FA1E05; }
+.loginregisterform  .fgtclk{ border-bottom:3px solid #404040; padding:0; margin-top:5px; line-height:15px; text-decoration:none; float:right; font-size:12px}
+.loginregisterform  .fgtclk:hover{text-decoration:none; cursor:pointer; border-bottom:3px solid orange;}
+
+.fgt_form table td{font:none; margin:0 auto; text-align:center}
+.fgt_form table input[type="button"]{float:none; width:150px}
+.fgt_form table p{text-align:center; font-size:13px; color:Black; margin:20px}
+.fgt_form table a{ margin-top:30px; border-bottom:3px solid #404040; text-decoration:none}
+.fgt_form table a:hover{text- :none; cursor:pointer; border-bottom:3px solid orange;}

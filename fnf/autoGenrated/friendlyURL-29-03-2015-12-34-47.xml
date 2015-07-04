@@ -1,0 +1,290 @@
+<rewriter>
+<!-- ======================== START Category Details Page ======================================= -->
+<if url='~/(.+)?htm'>
+  <rewrite to='~/sfloor/pages/CatDetails.aspx' processing='stop'/>
+</if>
+<!-- ======================== END Category Details Page ======================================= -->
+<!-- ========================START Product Type ======================================= -->
+<if url='~/Images/Apple-Granny-Green-300X400.jpg/Apple'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=kg' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Besan-500-gms300x400/Rajdhani'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=Pack' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Maida300x400./Rajdhani'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=pack' processing='stop'/>
+</if>
+<if url='~/jadugar-poha-300x400.jpg/Jadugar'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=gm' processing='stop'/>
+</if>
+<if url='~/Nature-Fresh-Kachi-Ghani-Pure-Mustard-Oil220x293.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=ltr' processing='stop'/>
+</if>
+<if url='~/Figaro-Olive-Oil300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=ml' processing='stop'/>
+</if>
+<if url='~/Organic-India-Tulsi-Ginger-Tea-25-Bags300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=bag' processing='stop'/>
+</if>
+<if url='~/Denim-Black-Body-Spray300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=tincan' processing='stop'/>
+</if>
+<if url='~/Boro-Plus-Antiseptic-Cream-40gm300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=piece' processing='stop'/>
+</if>
+<if url='~/Everyuth-Naturals-Walnut-Scrub-50gm300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=tube' processing='stop'/>
+</if>
+<if url='~/Stayfree-Advanced-Ultra-Thin-16-Pads300x400.jpg/N/A'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=pads' processing='stop'/>
+</if>
+<!-- ========================END Product Type ======================================= -->
+<!-- ========================START Category Type ======================================= -->
+<if url='~/Images/Apple-Granny-Green-300X400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGFVF' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Besan-500-gms300x400'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGRBBSN' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Maida300x400.'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRMDA' processing='stop'/>
+</if>
+<if url='~/Ashirwad-select-atta-300x400-copy.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRAT' processing='stop'/>
+</if>
+<if url='~/jadugar-poha-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRPHA' processing='stop'/>
+</if>
+<if url='~/Dawat-Brown-Rice-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRRIC' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Sooji300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRSJI' processing='stop'/>
+</if>
+<if url='~/Rajdhani-Dalia-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRDLY' processing='stop'/>
+</if>
+<if url='~/Dhampure-Gur-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRGR' processing='stop'/>
+</if>
+<if url='~/rust-Classic-Sulphurless-Sugar300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRSGR' processing='stop'/>
+</if>
+<if url='~/Sugar-Powder-(Boora)300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGRBR' processing='stop'/>
+</if>
+<if url='~/Tata-Salt 300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGSPSLT' processing='stop'/>
+</if>
+<if url='~/Flora-Fresh-Sabut-Rai-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPMETM' processing='stop'/>
+</if>
+<if url='~/Flora-Garam-Masala-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPGRMM' processing='stop'/>
+</if>
+<if url='~/MDH-Deegi-Mirch-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPMRCP' processing='stop'/>
+</if>
+<if url='~/Ramdev-Premium-Strong-Hing300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPHNG' processing='stop'/>
+</if>
+<if url='~/Catch-Black-Pepper-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPBPR' processing='stop'/>
+</if>
+<if url='~/Catch-Dhania-(Coriander)-Power-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPDHNP' processing='stop'/>
+</if>
+<if url='~/Catch-Dry-Ginger-Powder-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPGNGP' processing='stop'/>
+</if>
+<if url='~/Catch-Kitchen-King300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPSBJM' processing='stop'/>
+</if>
+<if url='~/Catch-Turmeric-Powder-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPHLDP' processing='stop'/>
+</if>
+<if url='~/Flora-Fresh-Sabut-Rai-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPSBTR' processing='stop'/>
+</if>
+<if url='~/Catch-Jeera-Powder-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPJRP' processing='stop'/>
+</if>
+<if url='~/Catch-Amchur-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPAMP' processing='stop'/>
+</if>
+<if url='~/Catch-Chana-Masala-300x400-.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPCNP' processing='stop'/>
+</if>
+<if url='~/Catch-Chat-Masala-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPCHTM' processing='stop'/>
+</if>
+<if url='~/Cooking-Soda300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSPCKS' processing='stop'/>
+</if>
+<if url='~/Dal-chini-(Cinnamon-)300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGSP' processing='stop'/>
+</if>
+<if url='~/ajwain-seeds300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSSAJ' processing='stop'/>
+</if>
+<if url='~/Loose-Mix-Dal300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLMXDL' processing='stop'/>
+</if>
+<if url='~/Loose-Arhar-Dal300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLADL' processing='stop'/>
+</if>
+<if url='~/Loose-Chana-Dal300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLCDL' processing='stop'/>
+</if>
+<if url='~/Loose-Lobhia300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLLB' processing='stop'/>
+</if>
+<if url='~/Malka-Masur-Dal300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLMSDL' processing='stop'/>
+</if>
+<if url='~/Moong-Dal-Chilka300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLMDL' processing='stop'/>
+</if>
+<if url='~/Moongphali300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDFDF' processing='stop'/>
+</if>
+<if url='~/Rajma-Chitra300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLRJM' processing='stop'/>
+</if>
+<if url='~/Urad-Chhilka-(Kali-Dal) 300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDLUDT' processing='stop'/>
+</if>
+<if url='~/Amul-Pure-Ghee300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLGGH' processing='stop'/>
+</if>
+<if url='~/Nature-Fresh-Kachi-Ghani-Pure-Mustard-Oil220x293.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLGMOL' processing='stop'/>
+</if>
+<if url='~/Nature-Fresh-Refined-Soyabean-Oil300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLGROL' processing='stop'/>
+</if>
+<if url='~/Dhara-Refined-Vegetable-Oil300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLGVOL' processing='stop'/>
+</if>
+<if url='~/Delmonte-Extra-Virgin-Olive-Oil 300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLGOOL' processing='stop'/>
+</if>
+<if url='~/Appy-Fizz-300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRCLDR' processing='stop'/>
+</if>
+<if url='~/Frooti-Mango-Drink-160ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRJUCE' processing='stop'/>
+</if>
+<if url='~/Pantanjali-Amla-Juice-1Ltr300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRHTHD' processing='stop'/>
+</if>
+<if url='~/Brooke-Bond-Red-Label-250gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRTENCF' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRSHRBT' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDRENRDR' processing='stop'/>
+</if>
+<if url='~/dermi_cool_regular_prickly_heat_powder_150_gms300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCBDYTK' processing='stop'/>
+</if>
+<if url='~/Dabur-Gulabari-Moisrurizing-Lotion-200ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCLTNCM' processing='stop'/>
+</if>
+<if url='~/Fem-Hand-Wash-5Ltr300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCSOPHW' processing='stop'/>
+</if>
+<if url='~/Denim-Black-Body-Spray300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCDONSP' processing='stop'/>
+</if>
+<if url='~/Boro-Plus-Antiseptic-Cream-40gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCFCFCECRM' processing='stop'/>
+</if>
+<if url='~/Everyuth-Naturals-Walnut-Scrub-50gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCFCFCFCFM' processing='stop'/>
+</if>
+<if url='~/Pond's-White-Beauty300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCFCFCFM' processing='stop'/>
+</if>
+<if url='~/Himalaya-Lip-Balm-10gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCFCLC' processing='stop'/>
+</if>
+<if url='~/Clinic-Plus-+-Soft-Silky-Cream-Conditiner-160ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCHCCND' processing='stop'/>
+</if>
+<if url='~/Garnier-Color-1-Natural-Black300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCHCHCLR' processing='stop'/>
+</if>
+<if url='~/Bajaj-Almond-Drop-Hair-Oil-100ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCHCHOL' processing='stop'/>
+</if>
+<if url='~/Clear-Men-Anti-Dandruff-Shampoo-170ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCHCSHMP' processing='stop'/>
+</if>
+<if url='~/Colgate-Plax-Complete-Care-Mouthwash-250ml300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCOCMWS' processing='stop'/>
+</if>
+<if url='~/Oral-B-All-Rounder-Tooth-Brush-1Pcs300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCOCTUTHBRSH' processing='stop'/>
+</if>
+<if url='~/Oral-B-Extra-Fresh-Gel-Mint-140-gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCOCTUTHPST' processing='stop'/>
+</if>
+<if url='~/ManForce-Extra-Dotted-Condoms-Black-Grapes300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCPHMNEED' processing='stop'/>
+</if>
+<if url='~/Gillette-Satin-Care-Women-Razor-1Pc300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCPHHRMVAL' processing='stop'/>
+</if>
+<if url='~/Stayfree-Advanced-Ultra-Thin-16-Pads300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCPHSNTRYNPK' processing='stop'/>
+</if>
+<if url='~/Anne-French-Oriental-Rose-Hair-Removal-Cream-40gm300x400.jpg'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBCPSHNDSLNAFSH' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCCASHEW' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCALMOND' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCELAICHI' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCKISHMISH' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCAKROT' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCPISTA' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCCHUARA' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCMUNNAKKA' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCCHIRONJI' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCKHUMANI' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCMAGAZ' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCCHILGOZA' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCMAKHANE' processing='stop'/>
+</if>
+<if url='~/N/A'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHCANJEER' processing='stop'/>
+</if>
+<!-- ========================END Category Type ======================================= -->
+</rewriter>

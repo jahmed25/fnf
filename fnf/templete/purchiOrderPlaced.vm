@@ -1,0 +1,37 @@
+<div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#000000">
+<div style="width:680px"><a href="http://fabnfresh.com" title="fabnfresh" target="_blank"><img src="$PATH/new-images/newlogo.png" alt="FAB n FRESH" style="margin-bottom:20px;border:none" class="CToWUd"></a>
+  <p style="margin-top:0px;margin-bottom:20px">
+    Dear Colleague,<br>
+      <br>
+
+Congrates!! One Purchi Order Has been placed, Please get in touch with customer <br>
+
+      <table style="border-collapse:collapse;width:100%;border-top:1px solid #dddddd;border-left:1px solid #dddddd;margin-bottom:20px">
+    <thead>
+      <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222" colspan="2">One Purchi Order Has been  Placed</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td >Name</td>
+        <td >$NAME</td>
+        
+      </tr>
+      <tr>
+        <td >Address</td>
+        <td >$ADDRESS</td>
+
+      </tr>
+      <tr>
+        <td >Mobile No</td>
+        <td >$PHONE</td>
+
+      </tr>
+      <tr>
+        <td >Order List</td>
+        <td >$TEXT</td>
+
+      </tr>
+    </tbody>
+</table>

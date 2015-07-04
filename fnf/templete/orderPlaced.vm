@@ -1,0 +1,83 @@
+<div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#000000">
+<div style="width:680px"><a href="http://fabnfresh.com" title="http://fabnfresh.com" target="_blank"><img src="http://admin.shoppersfloor.com/FnF/new-images/newlogo.png" alt="Fab N Fresh" style="margin-bottom:20px;border:none" class="CToWUd"></a>
+  <p style="margin-top:0px;margin-bottom:20px">Hi $CUSTOMER,</br>
+
+Thank you for your order!</br>
+
+We will send you another email once the items in your order have been shipped. Meanwhile, you can check the status of your order on <a href="http://fabnfresh.com/" target="_blank">Fab N Fresh.com</a></p></p>
+      <table style="border-collapse:collapse;width:100%;border-top:1px solid #dddddd;border-left:1px solid #dddddd;margin-bottom:20px">
+    <thead>
+      <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222" colspan="2">Order Details</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"><b>Order ID:</b> $ORDER_NO<br>
+          <b>Date Added:</b> $ORDER_DATE</br>
+          <b>Payment Method:</b> $PAYMINT_MODE</br>
+           <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"><b>Email:</b> <a href="mailto:$EMAIL" target="_blank">$EMAIL</a><br>
+          <b>Mobile No:</b> $MOBILE</br>
+      </tr>
+    </tbody>
+  </table>
+    <table style="border-collapse:collapse;width:100%;border-top:1px solid #dddddd;border-left:1px solid #dddddd;margin-bottom:20px">
+    <thead>
+      <tr>
+		<td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">Shipping Address</td>
+	  </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px">
+		$ADDRESS</br>$CITY</br>$STATE $PIN</br>$COUNTRY</td>
+      </tr>
+    </tbody>
+  </table>
+  <table style="border-collapse:collapse;width:100%;border-top:1px solid #dddddd;border-left:1px solid #dddddd;margin-bottom:20px">
+    <thead>
+      <tr>
+	  <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid 	#dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">SKU</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">Product</td>
+		<td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">Brand</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">Colour</td>
+		<td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:left;padding:7px;color:#222222">Size</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:right;padding:7px;color:#222222">Quantity</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:right;padding:7px;color:#222222">Unit Price</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;background-color:#efefef;font-weight:bold;text-align:right;padding:7px;color:#222222">Total</td>
+      </tr>
+    </thead>
+    <tbody>
+	#foreach( $PRODUCT in $ALL_PRODUCT )
+          <tr>
+		<td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px">$PRODUCT.SKU</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"> $PRODUCT.NAME</td>
+		 <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"> $PRODUCT.BRAND</td>
+         <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"> $PRODUCT.COLOR</td>
+		 <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:left;padding:7px"> $PRODUCT.SIZE</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">$PRODUCT.QTY</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">Rs.$PRODUCT.UNIT_PRICE</td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">Rs.$PRODUCT.TOTAL</td>
+      </tr>
+	  #end
+       </tbody>
+    <tfoot>
+            <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px" colspan="7"><b>Sub-Total:</b></td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">Rs.$SUBTOTAL</td>
+      </tr>
+        
+       <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px" colspan="7"><b>VAT:</b></td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">Rs.$VAT</td>
+      </tr>
+       <tr>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px" colspan="7"><b>Total:</b></td>
+        <td style="font-size:12px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;text-align:right;padding:7px">Rs.$TOTAL</td>
+      </tr>
+          </tfoot>
+  </table>
+ <p style="margin-top:0px;margin-bottom:20px">Please do not reply to this email if you have any questions or concern please call us on our 24x7 customer care No. +91 7042121501/02 or you can send email as well on <a href="mailto: customercare@fabnfresh.com" target="_blank">customercare@fabnfresh.com</a><br></p>
+ <p style="margin-top:0px;margin-bottom:20px">Powered By <a href="http://groupof3.com" target="_blank"><span class="il">GO3 Technosoft</span></a>.</p><div class="yj6qo"></div><div class="adL">
+</div></div><div class="adL">
+</div></div>

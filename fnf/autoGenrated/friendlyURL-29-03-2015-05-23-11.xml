@@ -1,0 +1,263 @@
+<rewriter>
+<!-- ======================== START Category Details Page ======================================= -->
+<if url='~/(.+)?htm'>
+  <rewrite to='~/sfloor/pages/CatDetails.aspx' processing='stop'/>
+</if>
+<!-- ======================== END Category Details Page ======================================= -->
+<!-- ========================START Product Type ======================================= -->
+<if url='~/Food-n-Groceries/Groceries/Atta'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRAT' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Sabut-Spices/Ajwain'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSSAJ' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Akrot'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCAKROT' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Almond'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCALMOND' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee/Ghee'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGOLGGH' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Anjeer'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCANJEER' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Hair-Removal'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCPHHRMVAL' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Lotion-N-Aftershave'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCPSHNDSLNAFSH' processing='stop'/>
+</if>
+<if url='~/Fruits-n-Vegetables/Fruits/Fruits'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGFVF' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Cold-Drinks'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRCLDR' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Hair-Care'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCHCCND' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Sugar'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRSGR' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Health-Drinks'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRHTHD' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Face-Care'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCFCFCECRM' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Soap-N-Handwash'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCSOPHW' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Tea-N-Coffee'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRTENCF' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Sabut-Spices/Cardomom-Badi-Elaichi-'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGSP' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Cashew'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCCASHEW' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Amchur-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPAMP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Black-Pepper'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPBPR' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Salt'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGSPSLT' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Chana-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPCNP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Chat-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPCHTM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Dhania-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPDHNP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Ginger-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPGNGP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Hing'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPHNG' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Jeera-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPJRP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Mirch-Powder-'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPMRCP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Sabji-Masala'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPSBJM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Turmeric-(Huldi)-Powder'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPHLDP' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Chilgoza'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCCHILGOZA' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Chironji'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCCHIRONJI' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Chuara'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCCHUARA' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Oral-Care'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCOCTUTHPST' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Cooking-Soda'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPCKS' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Rice'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRRIC' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Lotion-N-Cream'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCLTNCM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee/Olive-Oil '>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGOLGOOL' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Deo-N-Spray'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCDONSP' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Body-Talc'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCBDYTK' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Gur'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRGR' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee/Vegetable-Oil'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGOLGVOL' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Elaichi'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCELAICHI' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Meat-Masala'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPMETM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Sabut-Rai'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPSBTR' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices/Garam-Masala'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGSPGRMM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee/Mustard-Oil'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGOLGMOL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee/Refined-Oil'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGOLGROL' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Juice'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRJUCE' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Energy-Drinks'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRENRDR' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks/Sharbat'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=RFDRSHRBT' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Lip-Care'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCFCLC' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Poha'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRPHA' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Khumani'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCKHUMANI' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Kishmish'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCKISHMISH' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Arhar-Dal'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLADL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Chana'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLCDL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Lobhia'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLLB' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Masur-Dal'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLMSDL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Mix-Dal'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLMXDL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Moong-Dal'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLMDL' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Loose-Moongphali'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCMNGPHL' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Rajma'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLRJM' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals/Urad'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGDLUDT' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Magaz'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCMAGAZ' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Makhane'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCMAKHANE' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Man-Need'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCPHMNEED' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Munnakka'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCMUNNAKKA' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare/Pista'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=DFHCPISTA' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Besan'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGRBBSN' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Dalia'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRDLY' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Maida'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRMDA' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Sooji'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRSJI' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare/Sanitary-Napkins'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=SCBCPHSNTRYNPK' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Groceries/Boora'>
+  <rewrite to='~/sfloor/pages/Categories.aspx?Pid=FGGRBR' processing='stop'/>
+</if>
+<!-- ========================END Product Type ======================================= -->
+<!-- ========================START Category Type ======================================= -->
+<if url='~/Food-n-Groceries/Groceries'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGGR' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Sabut-Spices'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSS' processing='stop'/>
+</if>
+<if url='~/DryFruits/HealthCare'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=DFHC' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Oil-n-Ghee'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGOLG' processing='stop'/>
+</if>
+<if url='~/Selfcare/Bodycare'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=SCBC' processing='stop'/>
+</if>
+<if url='~/Fruits-n-Vegetables/Fruits'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGFV' processing='stop'/>
+</if>
+<if url='~/Refreshment/Drinks'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=RFDR' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Spices'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGSP' processing='stop'/>
+</if>
+<if url='~/Food-n-Groceries/Dals'>
+   <rewrite to='~/sfloor/pages/Categories.aspx?CategoryType=FGDL' processing='stop'/>
+</if>
+<!-- ========================END Category Type ======================================= -->
+</rewriter>

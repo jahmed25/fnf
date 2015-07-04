@@ -7,13 +7,9 @@
 		#recent-product .owl-stage{height:20%}
 	  </style>
       <!-- start end-->
+    <script type="text/javascript" src="<%=ConfigUtil.StaticPath() %>new-js/lib/jquery-1.8.3.min.js"></script>
       <link rel="stylesheet" type="text/css" href='<%=ConfigUtil.StaticPath() %>new-css/etalage.css'>
-      <link href='<%=ConfigUtil.StaticPath() %>new-css/internalpage.css' rel="stylesheet" type="text/css" />
       <script type="text/javascript" src='<%=ConfigUtil.StaticPath() %>new-js/cloudzoom.js'></script>
-       <script type="text/javascript" src='<%=ConfigUtil.StaticPath() %>new-js/lib/easing.js'></script>
- <%--     <script type="text/javascript" src='<%=ConfigUtil.StaticPath() %>new-js/lib/olive-horizontal-slider.js'></script>
- --%>
-     
       <script type="text/javascript">
           CloudZoom.quickStart();
           function selectSize(txt) {
@@ -155,13 +151,11 @@
                      </div>
                   </div>
                </div>
-<div class="women_main">
+<div class="container">
 
 	<!-- start content -->
-			<div class="row single">
-				<div class="col-md-12">
-				  <div class="single_left">
-					<div class="grid images_3_of_2">
+				  <div class="row">
+					<div class="col-md-5 col-sm-5 col-xs-12">
 				
                            <div id="details-image">
                   <%if (!StringUtil.isNullOrEmpty((dt.Rows[0]["PathInternaldetailsZoomImage"] + "")))
@@ -184,7 +178,7 @@
                </div>
 						 <div class="clearfix"></div>		
 				  </div>
-				  <div class="desc1 span_3_of_2">
+				  <div class="desc1 col-md-7 col-sm-7 col-xs-12">
 			    <div id="description">
                     <div class="prevnext">
                        <a class="previous" title="Previous Product" href='<%=ConfigUtil.hostURL() %><%=StringUtil.urlEncode(dt.Rows[0]["SKUName"]+"") %>?htm=<%=Request.Params["htm"]%>&action=prev&index=<%=index-1%>'> <i class="prev-i"></i><span>Previous</span></a>
@@ -303,9 +297,7 @@
 				</div>
                </div>
              </div>
-            </div>
-            
-         </div>
+          
 		  	 <div class="clearfix"></div>
 	       	  <div class="single-bottom2">
 					<h6>Related Products</h6>

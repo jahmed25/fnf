@@ -396,7 +396,7 @@
     function clearCart() {
         jQuery.ajax({ method: 'POST', url: path + "sfloor/pages/AjaxService.aspx?action=clearCart" })
    .success(function (msg) {
-       jQuery("#cartDiv").html("<p style='color:red'>Your Cart Is Empty</p>")
+       jQuery("#cartDiv").html("<div class='empty_item'><span>Your Cart Is Empty</span></div>")
        jQuery("#cCount").text("0");
        if (pageType == 'addToCart') {
            jQuery('.addtocartmain').html("<center><p style='color:red'>All item(s) has been Deleted from your Cart</center>")
@@ -407,7 +407,7 @@
     function clearFav() {
         jQuery.ajax({ method: 'POST', url: path + "sfloor/pages/AjaxService.aspx?action=clearFav" })
    .success(function (msg) {
-       jQuery("#wishListDiv").html("<p style='color:red'>Your Wish List Is Empty</p>")
+       jQuery("#wishListDiv").html("<div class='empty_item'><span>Your Wishlist Is Empty</span></div>")
        jQuery("#favCount").text("0");
        if (jQuery(".wishlist-head").length > 0) {
            jQuery(".wishlist-container").remove();
@@ -534,6 +534,17 @@ jQuery(document).ready(function () {
             position: 'absolute'
         });
     }
-    
+    $(document).ready(function () {
+        $(".dropdown").hover(
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideDown("fast");
+                $(this).toggleClass('open');
+            },
+            function () {
+                $('.dropdown-menu', this).stop(true, true).slideUp("fast");
+                $(this).toggleClass('open');
+            }
+        );
+    });
 </script>
 <!-- Common1.js End-->

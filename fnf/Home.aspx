@@ -1,4 +1,4 @@
-<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
+﻿<%@ Page Title="" Language="C#" AutoEventWireup="true" CodeFile="Home.aspx.cs" Inherits="Home" %>
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 <head>
@@ -86,11 +86,11 @@
                   </div>
 
                     <div class="parchiadd">
-                           <input placeholder="Name"type="text" name="name" class="parchiName"/> 
+                           <input placeholder="Name"type="text" name=" class="parchiName"/> 
                            <small class="error"  id="parchiNameError" style="display:none;color:red;width:100%" ng-show="purchiFrm.name.$error.required && !purchiFrm.name.$pristine ">Phone No  required.</small>
                            <textarea placeholder="Addess" name="address" class="parchiAddress"></textarea>
                            <small class="error" id="parchiAddressError" style="display:none;color:red;width:100%" ng-show="purchiFrm.address.$error.required && !purchiFrm.address.$pristine ">Phone No  required.</small>
-                           <input placeholder="Mobhile No" style="float:left;display:inline-block" ng-pattern="/[0-9]/" name="phone" length="10"ng-minlength="10" ng-maxlength="10" type="text"  class="parchiPhone"/>
+                           <input placeholder="Mobhile No" style="float:left;display:inline-block" ng-pattern="/[0-9]/" name="phone" maxlength="10" ng-minlength="10" ng-maxlength="10" type="text"  class="parchiPhone"/>
 						   <small class="error" id="parchiPhoneError" style="display:none;color:red;width:100%" ng-show="purchiFrm.phone.$error.minlength ||purchiFrm.phone.$error.maxlength && !purchiFrm.phone.$pristine && !purchiFrm.phone.$error.required">Phone No should  have 10 digit</small>
                            <a href="javascript:void(0)" class="back">Back</a>
                            <a href="javascript:void(0)"  onclick="submitPurchi()" class="submit">Submit</a>
@@ -119,7 +119,7 @@
                 </div>
                 <!-- grids_of_3 -->
                 <div class="row grids">
-                    <div class="col-md-3 grid1">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1">
                         <a href="<%=ConfigUtil.hostURL() %>Refreshment/Drinks-N-Bevrages/Tea-N-Coffee">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_8.jpg" class="img-responsive" alt="" />
                             <div class="look">
@@ -127,7 +127,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1">
                         <a href="<%=ConfigUtil.hostURL() %>Selfcare/Bodycare/Body-Talk">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_7.jpg" class="img-responsive" alt="" />
                             <div class="look">
@@ -135,7 +135,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1">
+                    <div class="col-md-3 col-sm-3 col-xs-6  grid1">
                         <a href="<%=ConfigUtil.hostURL() %>Food-n-Groceries/Oil-n-Ghee">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_6.jpg" class="img-responsive" alt="" />
                             <div class="look">
@@ -143,7 +143,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1">
                         <a href="<%=ConfigUtil.hostURL() %>Selfcare/Bodycare/Deo-N-Spray">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_5.jpg" class="img-responsive" alt="" />
                             <div class="look">
@@ -156,7 +156,7 @@
                 <!-- end grids_of_3 -->
                 <!-- grids_of_3 -->
                 <div class="row grids">
-                    <div class="col-md-3 grid1 effect-oscar">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1 effect-oscar">
                         <a href="<%=ConfigUtil.hostURL() %>Fruits-n-Vegetables/Fruits">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_4.jpg" class="img-responsive" alt="">
                             <div>
@@ -164,7 +164,7 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1 effect-oscar">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1 effect-oscar">
                         <a href="<%=ConfigUtil.hostURL() %>Food-n-Groceries/Spices">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_3.jpg" class="img-responsive" alt="">
                             <div>
@@ -172,15 +172,15 @@
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1 effect-oscar">
-                        <a href="<%=ConfigUtil.hostURL() %>Food-n-Groceries/Dals-n-Lentils">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1 effect-oscar">
+                        <a href="<%=ConfigUtil.hostURL() %>Food-n-Groceries/Dals">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_2.jpg" class="img-responsive" alt="">
                             <div>
                                 <h2>LENTILE N PULSES</h2>
                             </div>
                         </a>
                     </div>
-                    <div class="col-md-3 grid1 effect-oscar">
+                    <div class="col-md-3 col-sm-3 col-xs-6 grid1 effect-oscar">
                         <a href="<%=ConfigUtil.hostURL() %>Fruits-n-Vegetables/Fruits">
                             <img src="<%=ConfigUtil.StaticPath() %>new-images/banner/bottom_banner_1.jpg" class="img-responsive" alt="">
                             <div>

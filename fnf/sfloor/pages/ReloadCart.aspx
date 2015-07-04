@@ -9,7 +9,7 @@
       <div style="display: none;" class="top-cart-content" id='cartDiv'>
          <%if (cartDT.Rows.Count > 0)
             { %>
-    <div class="cartheader">Total :<span class="price"><%=total%></span>&nbsp;&nbsp;<a href="<%=ConfigUtil.hostURL() %>Add-To-Cart" style='color:blue'>View ALL</a>&nbsp;&nbsp;<a  style='color:blue' href="<%=ConfigUtil.hostURL() %>Checkout">Checkout</a> <a href="#" style="float:right;color:red" onclick="clearCart()">Clear All</a></div>     
+    <div class="headnav-popup">Total :<span class="price"><%=total%></span>&nbsp;&nbsp;<a href="<%=ConfigUtil.hostURL() %>Add-To-Cart" style='color:blue'>View ALL</a>&nbsp;&nbsp;<a  style='color:blue' href="<%=ConfigUtil.hostURL() %>Checkout">Checkout</a> <a href="#" style="float:right;color:red" onclick="clearCart()">Clear All</a></div>     
          <%for (int i = 0; i < cartDT.Rows.Count; i++)
             { %>
          <div class="wishlist-content">

@@ -1,8 +1,7 @@
-.loginregisterform{width:auto; min-height:300px; height:auto;  margin:0 auto; position:absolute; left:200px;  border-radius:10px; font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
-	}
+.loginregisterform{width:auto; min-height:300px; height:auto;  margin:0 auto; position:fixed!important; left:200px;  border-radius:10px; font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;}
 .loginregisterform .loginform{width:333px; height:auto; float:left; margin:10px;}
 .loginregisterform .registerform{width:333px; height:auto; float:left;margin:10px;}
-.loginregisterform .midline{ float:left; width:1px; height:400px; margin:20px 15px 0 15px;
+.loginregisterform .midline{ float:left; width:1px; height:350px; margin:20px 15px 0 15px;
 background: rgba(255,255,255,1);
 background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
 background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(4,180,4,1)), color-stop(100%, rgba(255,255,249,1)));
@@ -14,7 +13,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .loginregisterform .headtitle {
 	display: block;
-	margin-bottom:20px;
+	margin-bottom:10px;
 	padding: 10px 0px;	
 	font-size: 23px;
 	text-align:center;
@@ -101,7 +100,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	box-sizing: border-box;
 	-moz-box-sizing: border-box;
 	width: 100%;
-	height: 39px;
+	height: 32px;
 	padding: 5px;
 	outline: none;
 	border-width: 1px;
@@ -133,17 +132,14 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 
 .login-cont > div > div, .register-cont > div > div{display: inline-block;
     text-align: right;
-    vertical-align: middle; height:65px;
-}
+    vertical-align: middle; height:50px; font-size:12px;line-height:2;
+ margin-bottom: 10px;}
     .login-cont > div > div:first-child,.register-cont > div > div:first-child {
         width: 36%;padding: 0 20px;
     }
     .login-cont > div > div:nth-child(2),.register-cont > div > div:nth-child(2){
         width: 62%;
     }
-.login-cont > div > div {
-    margin-bottom: 10px;
-}
     .login-cont > div > div > p {height:10px}
 .login-cont > p {
     float: right;width:100%

@@ -66,15 +66,14 @@
 		Exception exception = Server.GetLastError();
 		// ... log error here
 		MFO.Loggers.Logger.Error("Exception Occur "+exception);
-		System.Web.HttpContext.Current.Session["error"]="Exception Occur "+exception;
-        var httpEx = exception as HttpException;    
+        //var httpEx = exception as HttpException;    
 
-        if (httpEx != null && httpEx.GetHttpCode() == 403)
-            Response.Redirect(ConfigUtil.hostURL()+"sfloor/pages/Error500.aspx", true);
-        else if (httpEx != null && httpEx.GetHttpCode() == 404)
-           Response.Redirect(ConfigUtil.hostURL() + "sfloor/pages/Error404.aspx", true);
-        else
-           Response.Redirect(ConfigUtil.hostURL() + "sfloor/pages/Error500.aspx", true);
+        //if (httpEx != null && httpEx.GetHttpCode() == 403)
+        //    Response.Redirect(ConfigUtil.hostURL()+"sfloor/pages/Error500.aspx", true);
+        //else if (httpEx != null && httpEx.GetHttpCode() == 404)
+        //    Response.Redirect(ConfigUtil.hostURL() + "sfloor/pages/Error404.aspx", true);
+        //else
+        //    Response.Redirect(ConfigUtil.hostURL() + "sfloor/pages/Error500.aspx", true);
 	}
 
 </script>

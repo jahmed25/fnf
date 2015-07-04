@@ -57,76 +57,13 @@
     <div class="header_bg">
         <div class="container">
             <div class="header">
-                <div class="logo">
+                <div class="logo col-md-3 col-sm-3 col-xs-6">
                     <a href='<%=ConfigUtil.hostURL() %>Home' title="Feb N Fresh" class="logo"><strong>Feb N Fresh</strong>
                         <img src='<%=ConfigUtil.StaticPath() %>new-images/newlogo.png' alt="Feb N Fresh floor"></a>
                 </div>
-                <!-- start header_right -->
-                <%--<div class="header_right">
-		<div class="create_btn">
-			<a class="arrow"  href="registration.html">create account <img src="images/right_arrow.png" alt=""/>  </a>
-		</div>
-           
-                           
-		<ul class="icon1 sub-icon1 profile_img">
-			<li><a class="active-icon c2" href="#"> </a>
-				<ul class="sub-icon1 list">
-					<li><h3>shopping cart empty</h3><a href=""></a></li>
-					<li><p>if items in your wishlit are missing, <a href="">login to your account</a> to view them</p></li>
-				</ul>
-			</li>
-		</ul>
-		<ul class="icon1 sub-icon1 profile_img">
-			<li><a class="active-icon c1" href="#"> </a>
-				<ul class="sub-icon1 list">
-					<li><h3>wishlist empty</h3><a href=""></a></li>
-					<li><p>if items in your wishlit are missing, <a href="">login to your account</a> to view them</p></li>
-				</ul>
-			</li>
-		</ul>
-		</div>--%>
-                <div style="float: right">
-
-                    <div class="top-cart-wrapper">
-                        <div class="top-cart-contain" name='WLContainer'>
-
-                            <div class="icon-wishlist-big">
-                                <a class="cart-url" href='<%=ConfigUtil.hostURL() %>fav-items'><span class="wlcount"><b id='favCount'><%=FavDT.Rows.Count%></b></span></a>
-                            </div>
-                            <!--<span class="top-cart-icon"></span>-->
-                            <span class="top-cart-title-wishlist">Wishlist</span><span class="cart-arrow"></span>
-                            <div style="display: none;" class="top-cart-content" id='wishListDiv'>
-                                <%if (FavDT.Rows.Count > 0)
-                                  { %>
-
-                                <div id='wishContent' id="wlContent" style="width: 100%">
-                                    <a href="<%=ConfigUtil.hostURL() %>fav-items" style='color: blue'>View ALL</a>
-                                    <a href="#" style="float: right; color: red" onclick="clearFav()">Clear All</a>
-                                    <%for (int i = 0; i < FavDT.Rows.Count; i++)
-                                      { %>
-                                    <div class="wishlist-content">
-                                        <a class="imglist" href='<%=ConfigUtil.hostURL() %>?htm=<%=FavDT.Rows[i]["SKUCode"]%>' title='<%=FavDT.Rows[i]["SKUName"]%>'>
-                                            <img src='<%=ConfigUtil.getServerPath() %><%=FavDT.Rows[i]["PathInternaldetailsSmallImage"] %>' /></a>
-                                        <div class="main-cont">
-                                            <span class="cross-del" title="Delete item" sku='<%=FavDT.Rows[i]["SKUCode"]%>' wl></span>
-                                            <p class="empty"><%=FavDT.Rows[i]["SKUName"]%></p>
-                                            <p><span>Price</span><span class="price">Rs. <%=FavDT.Rows[i]["SpecialPrice"]%></span></p>
-                                            <p><span>Brand</span><span class="price"> <%=FavDT.Rows[i]["SKUBrand"]%></span></p>
-                                            <p><a class="wishbutton" href='<%=ConfigUtil.hostURL() %>?htm=<%=FavDT.Rows[i]["SKUCode"]%>' title='Buy Now'>Buy Now</a></p>
-                                        </div>
-                                    </div>
-                                    <%} %>
-                                </div>
-                                <%}
-                                  else
-                                  {%>
-                                <div class="empty_item"><span>Your WishList Is Empty</span></div>
-                                <%} %>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="top-cart-wrapper">
+              <div class="col-md-3 col-sm-3 col-xs-6" style="float: right">
+                    <%--addtocart--%>
+                    <div class="top-cart-wrapper add-to-carttp">
                         <div name='cartContainer' class="top-cart-contain">
                             <div class="icon-cart-big">
                                 <a class="cart-url" href='<%=ConfigUtil.hostURL() %>Add-To-Cart'>
@@ -138,10 +75,8 @@
                                 <%if (CartDT.Rows.Count > 0)
                                   { %>
                                 <div>
-                                    <div>
-                                        <div class="cartheader">Total :<span class="price"><%=Total%></span>&nbsp;&nbsp;<a href="<%=ConfigUtil.hostURL() %>Add-To-Cart" style='color: blue'>View ALL</a>&nbsp;&nbsp;<a style='color: blue' href="<%=ConfigUtil.hostURL() %>Checkout">Checkout</a> <a href="#" style="float: right; color: red" onclick="clearCart()">Clear All</a></div>
-                                    </div>
-
+                                        <div class="headnav-popup">Total :<span class="price"><%=Total%></span>&nbsp;&nbsp;<a href="<%=ConfigUtil.hostURL() %>Add-To-Cart" style='color: blue'>View ALL</a>&nbsp;&nbsp;<a style='color: blue' href="<%=ConfigUtil.hostURL() %>Checkout">Checkout</a> <a href="#" style="float: right; color: red" onclick="clearCart()">Clear All</a></div>
+                                    
                                     <%for (int i = 0; i < CartDT.Rows.Count; i++)
                                       { %>
                                     <div class="wishlist-content">
@@ -169,21 +104,65 @@
                             </div>
                         </div>
                     </div>
+                    <%--end--%>
+
+                    <%--wishlist--%>
+                    <div class="top-cart-wrapper wishlist-cart">
+                        <div class="top-cart-contain" name='WLContainer'>
+
+                            <div class="icon-wishlist-big">
+                                <a class="cart-url" href='<%=ConfigUtil.hostURL() %>fav-items'><span class="wlcount"><b id='favCount'><%=FavDT.Rows.Count%></b></span></a>
+                            </div>
+                            <!--<span class="top-cart-icon"></span>-->
+                            <span class="top-cart-title-wishlist">Wishlist</span><span class="cart-arrow"></span>
+                            <div style="display: none;" class="top-cart-content" id='wishListDiv'>
+                                <%if (FavDT.Rows.Count > 0)
+                                  { %>
+
+                                <div id='wishContent' id="wlContent" style="width: 100%">
+                                    <div class="headnav-popup"><a href="<%=ConfigUtil.hostURL() %>fav-items" style='color: blue'>View ALL</a>
+                                    <a href="#" style="float: right; color: red" onclick="clearFav()">Clear All</a></div>
+                                    <%for (int i = 0; i < FavDT.Rows.Count; i++)
+                                      { %>
+                                    <div class="wishlist-content">
+                                        <a class="imglist" href='<%=ConfigUtil.hostURL() %>?htm=<%=FavDT.Rows[i]["SKUCode"]%>' title='<%=FavDT.Rows[i]["SKUName"]%>'>
+                                            <img src='<%=ConfigUtil.getServerPath() %><%=FavDT.Rows[i]["PathInternaldetailsSmallImage"] %>' /></a>
+                                        <div class="main-cont">
+                                            <span class="cross-del" title="Delete item" sku='<%=FavDT.Rows[i]["SKUCode"]%>' wl></span>
+                                            <p class="empty"><%=FavDT.Rows[i]["SKUName"]%></p>
+                                            <p><span>Price</span><span class="price">Rs. <%=FavDT.Rows[i]["SpecialPrice"]%></span></p>
+                                            <p><span>Brand</span><span class="price"> <%=FavDT.Rows[i]["SKUBrand"]%></span></p>
+                                            <p><a class="wishbutton" href='<%=ConfigUtil.hostURL() %>?htm=<%=FavDT.Rows[i]["SKUCode"]%>' title='Buy Now'>Buy Now</a></p>
+                                        </div>
+                                    </div>
+                                    <%} %>
+                                </div>
+                                <%}
+                                  else
+                                  {%>
+                                <div class="empty_item"><span>Your Wishlist Is Empty</span></div>
+                                <%} %>
+                            </div>
+                        </div>
+
+                    </div>
+                   <%--end--%>
                 </div>
-            </div>
-            <div class="search">
+            <div class="search col-md-6 col-sm-6 col-xs-12">
                 <input id="search" name="q" onfocus="if(this.value == 'Search Here...') { this.value = ''; }"
                     onblur="this.value=!this.value?'Search Here...':this.value;" value="Search Here..."
                     class="input-text" maxlength="128" type="text" />
                 <button type="submit" title="Search" class="button" searchbtn></button>
                 <div id="search_autocomplete" class="search-autocomplete">
                 </div>
-
+                
+            </div>    
+              
+            
                 <div class="clearfix"></div>
 
-            </div>
             <!-- start header menu -->
         </div>
-    </div>
+    </div></div>
 </div>
 <m:MenuUserControl ID="menu" runat="server" />

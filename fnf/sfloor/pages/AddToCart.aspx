@@ -180,7 +180,7 @@
 	<div class="shoping_bag2">
 		<div class="shoping_left">
             <a class="btn1" name="cnt_toshop"  href="<%=ConfigUtil.hostURL() %>">CONTINUE SHOPPING</a>
-			 <a class="btn1" name="pcd_tochk" type='checkout' href='#'>ORDER NOW</a>
+			 <a class="btn1" name="pcd_tochk" type='checkout' href="javascript:void(0)">ORDER NOW</a>
             
 		</div>
 		<div class="shoping_right">

@@ -11,7 +11,7 @@
 <script type="text/javascript" src="<%=ConfigUtil.StaticPath() %>new-js/jquery.jscrollpane.min.js"></script>
 <script type="text/javascript" src="<%=ConfigUtil.StaticPath() %>new-js/jquery.mousewheel.js"></script>
 <script type="text/javascript" src="<%=ConfigUtil.StaticPath() %>new-js/megamenu.js"></script>
-<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<script type="text/javascript" src="<%=ConfigUtil.StaticPath() %>new-js/index.js"></script>
 
 <script type="text/javascript">jQuery(document).ready(function () { jQuery(".megamenu").megamenu(); });</script>
 
@@ -40,16 +40,17 @@
                                 <div class="h_nav">
                                     <h4><b><a style="color: green" href='<%=subMenu.Url %>'>
                                         <%=subMenu.Heading %></a></b></h4>
-                                    <ul>
-
-                                        <div class="scroll-pane" style="height: 350px; overflow: auto">
+                                    <div class="scroll-pane" style="height: 320px; overflow: auto">
+                                        <ul>
                                             <%foreach (MenuDTO menuItem in subMenu.Contents)
                                               {%>
                                             <li><a class="itemMenuName level2" href='<%=menuItem.Url %>'><%=menuItem.Heading%></a></li>
                                             <%} i++; first = "";%>
-                                        </div>
-
                                     </ul>
+
+                                    </div>
+
+                                    
                                 </div>
 
                             </div>
@@ -123,7 +124,7 @@
                     <div>
                         <div>Mobile:</div>
                         <div>
-                            <input type="text" name='mobile' ng-pattern="/[0-9]/" placeholder="Mobile" ng-model="user.mobile" ng-minlength="10" ng-maxlength="10">
+                            <input type="text" name='mobile' ng-pattern="/[0-9]/" placeholder="Mobile" ng-model="user.mobile" maxlength="10" ng-minlength="10" ng-maxlength="10">
                             <span ng-show="regForm.mobile.$invalid && !regForm.mobile.$pristine" class="help-block">Mobile no length should be 10 digit</span>
                             <span ng-show="user.errors.mobile" class="help-block" id='errMobile'>{{user.errors.mobile}}.</span>
                         </div>

@@ -1,0 +1,150 @@
+.loginregisterform{width:auto; min-height:300px; height:auto;  margin:0 auto; position:absolute; left:200px;  border-radius:10px; font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	}
+.loginregisterform .loginform{width:333px; height:auto; float:left; margin:10px;}
+.loginregisterform .registerform{width:333px; height:auto; float:left;margin:10px;}
+.loginregisterform .midline{ float:left; width:1px; height:400px; margin:20px 15px 0 15px;
+background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(4,180,4,1)), color-stop(100%, rgba(255,255,249,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(4,180,4,1) 50%, rgba(255,255,249,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#fffff9', GradientType=0 );}
+
+.loginregisterform .headtitle {
+	display: block;
+	margin-bottom:20px;
+	padding: 10px 0px;	
+	font-size: 23px;
+	text-align:center;
+	text-transform:uppercase;	
+	font-weight: 300;
+	color: #232323;
+}
+.loginregisterform .headtitle span { border-bottom:2px solid #04B404; padding:5px}
+.loginregisterform table{width:350px}
+.loginregisterform th{text-align:right; padding-right:5px; padding-top:8px;	color:#575757; font-weight:300; vertical-align:top; font-size:14px}
+.loginregisterform td{color:#575757; font-size:14px}
+.loginregisterform td p{padding:0; margin:0;}
+
+.loginregisterform input[type="button"] {
+	height: 39px;
+	float:right;
+	background-color:orange;
+	opacity: 0.7;
+	text-transform:uppercase;
+	overflow: hidden;
+	margin: 10px 0 0 20px;
+	padding: 0 50px;
+	outline: none;
+	border: 0;
+	
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	color: #fff;
+	outline:none;
+	cursor: pointer;
+}
+.loginregisterform input[type="button"]:hover {
+	background-color:orange;
+	opacity: 1;
+	transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+.loginregisterform input[type="button"]:active {
+	background-color:red;
+	position:relative;
+	top:1px;
+	transition: opacity 0.2s;
+	-o-transition: opacity 0.2s;
+	-ms-transition: opacity 0.2s;
+	-moz-transition: opacity 0.2s;
+	-webkit-transition: opacity 0.2s;
+}
+.loginregisterform input[disabled="disabled"] {height: 39px;
+	float:right;
+	background-color:#E1E1E1;
+	color:#A9A9A9;
+	text-transform:uppercase;
+	overflow: hidden;
+	margin: 10px 0 0 20px;
+	padding: 0 50px;
+	outline: none;
+	border: 0;
+	font-weight:bold;
+	font: 300 15px/39px 'Open Sans', Helvetica, Arial, sans-serif;
+	text-decoration: none;
+	
+	outline:none;
+	cursor: default;}
+.loginregisterform input[disabled="disabled"]:hover 
+{
+    background-color:#E1E1E1;
+	color:#A9A9A9;
+	opacity:0.7;
+	transition: none;
+	-o-transition: none;
+	-ms-transition: none;
+	-moz-transition: none;
+	-webkit-transition: none;
+}
+.loginregisterform input[disabled="disabled"]:active {
+	background-color:#E1E1E1;
+	color:#A9A9A9;
+	}
+
+.loginregisterform input[type="text"],input[type="number"],input[type="password"],input[type="email"] {display: block;
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	width: 100%;
+	height: 39px;
+	padding: 5px;
+	outline: none;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 2px;
+	background: #fff;
+	font: 15px/19px 'Open Sans', Helvetica, Arial, sans-serif;
+	color: #404040;
+	transition: border-color 0.2s ease 0s;
+	appearance: normal;
+	-moz-appearance: none;
+	-webkit-appearance: none;
+}
+.loginregisterform input{border:2px solid silver}
+.loginregisterform input[type="text"]:focus,input[type="number"]:focus,input[type="password"]:focus,input[type="email"]:focus,input[type="radio"]:focus{border:1px solid #FF8000; transition: border-color 0.3s ease 0.2s;}
+.loginregisterform .gender { line-height:55px}
+.loginregisterform .gender span{ margin-left:15px; margin-right:5px}
+.loginregisterform .offercheck{font-size:13px; text-align:center; line-height:30px}
+.loginregisterform  .x{ font-size:25px; float:right; margin-right:10px; text-decoration:none; z-index:1000px;}
+.loginregisterform  .x:hover{ color:#FA1E05; }
+.loginregisterform  .fgtclk{ border-bottom:3px solid #404040; padding:0; margin-top:5px; line-height:15px; text-decoration:none; float:right; font-size:12px}
+.loginregisterform  .fgtclk:hover{text-decoration:none; cursor:pointer; border-bottom:3px solid orange;}
+
+.fgt_form table td{font:none; margin:0 auto; text-align:center}
+.fgt_form table input[type="button"]{float:none; width:150px}
+.fgt_form table p{text-align:center; font-size:13px; color:Black; margin:20px}
+.fgt_form table a{ margin-top:30px; border-bottom:3px solid #404040; text-decoration:none}
+.fgt_form table a:hover{cursor:pointer; border-bottom:3px solid orange;}
+
+.login-cont > div > div, .register-cont > div > div{display: inline-block;
+    text-align: right;
+    vertical-align: middle; height:65px;
+}
+    .login-cont > div > div:first-child,.register-cont > div > div:first-child {
+        width: 36%;padding: 0 20px;
+    }
+    .login-cont > div > div:nth-child(2),.register-cont > div > div:nth-child(2){
+        width: 62%;
+    }
+.login-cont > div > div {
+    margin-bottom: 10px;
+}
+    .login-cont > div > div > p {height:10px}
+.login-cont > p {
+    float: right;width:100%
+}

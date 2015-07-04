@@ -1,0 +1,410 @@
+.center {
+    text-align: center!important;
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+#account_tabs {
+    font-size: 90%;
+    margin: 0 auto;
+    width: 100%;
+}
+#account_tabs ul {
+    float: left;
+}
+#account_tabs li {
+    list-style: outside none none;
+    margin: 10px 5px;
+}
+#account_tabs ul li.active {
+    background: none repeat scroll 0 0 #f5f5f5;
+    border-top: 2px solid #ffff66;
+}
+#account_tabs ul li.active a {
+    color: #333333;
+}
+#account_tabs .section {
+    background-color: #f5f5f5;
+    clear: both;
+    min-height: 200px;
+    padding: 15px;
+}
+#account_tabs .section h3 {
+    margin-bottom: 12px;
+    text-align: center;
+}
+#account_tabs .section p {
+    line-height: 150%;
+}
+.thumbs {
+    border: 1px solid #000;
+    float: left;
+    margin-bottom: 20px;
+    margin-right: 20px;
+}
+#account_tabs a {
+    text-decoration: none;
+}
+#account_tabs .mydetails {
+    color: #4d4d4d;
+    float: left;
+    height: auto;
+    width: 100%;
+}
+#account_tabs h3 {
+    background-color: #f5f5f5;
+    border: 1px solid #eaeaea;
+    color: #424242;
+    margin-bottom: 5px;
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+}
+#account_tabs .mydetails table td {
+    width: 200px;
+}
+#account_tabs .mydetails table tr {
+    width: 100%;
+}
+#account_tabs .mydetails table tr:nth-child(2n) {
+    background-color: #f4f4f4;
+}
+#account_tabs .mydetails table tr td:first-child {
+    font-weight: bold;
+    padding-right: 10px;
+    text-align: right;
+}
+#account_tabs .mydetails table tr td:nth-child(2) {
+    padding-left: 10px;
+    text-align: left;
+    color:#04b404
+}
+#account_tabs .mydetails .mydetailsleft {
+    float: left;
+    width: 530px;
+}
+#account_tabs .mydetails .mydetailsright {
+    float: left;
+    width: 250px;
+}
+#account_tabs .mydetails .mydetailsright table {
+    background-color: #d9d9d9;
+}
+#account_tabs .mydetails .mydetailsright a {
+    border-bottom: 1px solid #969696;
+    color: #2d2d2d;
+    font-size: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#account_tabs .mydetails .mydetailsright a:hover {
+    border-bottom: 1px solid #ff8040;
+}
+#account_tabs .mydetails .mydetailsright a.active {
+}
+#account_tabs .mydetails .myorder table {
+    border: 1px solid #ddd;
+}
+#account_tabs .mydetails .myorder tr:first-child {
+    background-color: #f3f3f3;
+}
+#account_tabs .mydetails .myorder tr td {
+    border-collapse: collapse;
+}
+#cng_pwd {
+    margin-top: 10px;
+}
+#account_tabs .btn_save {
+    background: none repeat scroll 0 0 #ff8040;
+    border: 1px solid #dd6f00;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 25px;
+    margin: 2px;
+    padding: 0;
+    width: 150px;
+}
+#account_tabs .btn_save:hover {
+    box-shadow: 0 1px 2px 1px #989898;
+}
+#account_tabs .btn_save:active {
+    position: relative;
+    top: 1px;
+}
+#account_tabs .myaddress {
+    float: left;
+    width: 500px;
+}
+#account_tabs .myaddright {
+    float: left;
+    width: 300px;
+}
+#account_tabs .myaddright a {
+    border-bottom: 1px solid #969696;
+    color: #2d2d2d;
+    font-size: 10px;
+    margin-left: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+#account_tabs .myaddright a:hover {
+    border-bottom: 1px solid #ff8040;
+}
+#account_tabs .btn_cancel {
+    background: none repeat scroll 0 0 #969696;
+    border: 1px solid #818181;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 25px;
+    margin: 2px;
+    padding: 0;
+    width: 150px;
+}
+#account_tabs .btn_cancel:active {
+    position: relative;
+    top: 1px;
+}
+#account_tabs .btn_cancel:hover {
+    box-shadow: 0 1px 2px 1px #989898;
+}
+#account_tabs .wishlistitem {
+    border: 1px solid #c0c0c0;
+    box-shadow: 0 7px 6px -6px #e8e8e8;
+    height: 150px;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    padding: 5px;
+}
+#account_tabs .wishlistitem .cross {
+    background: url("btn_window_close.gif") no-repeat scroll right center rgba(0, 0, 0, 0);
+    height: 20px;
+    position: absolute;
+    width: 20px;
+}
+#account_tabs .wishlistitem:hover {
+    box-shadow: 1px 1px 8px 0 rgba(50, 50, 50, 0.2);
+    transition: border 0.2s linear 0.2s, box-shadow 0.2s linear 0.2s;
+}
+#account_tabs .wishlistitem .wishlist_image {
+    float: left;
+    height: 150px;
+    text-align: center;
+    vertical-align: middle;
+    width: 200px;
+}
+#account_tabs .wishlistitem .wishlist_desc {
+    color: #424242;
+    float: left;
+    vertical-align: middle;
+    width: 670px;
+}
+#account_tabs .wishlistitem .wishlist_desc p {
+    margin-bottom: 5px;
+}
+#account_tabs .wishlistitem .wishlist_desc .name {
+    overflow: auto;
+}
+#account_tabs .wishlistitem .wishlist_desc .brand {
+    font-weight: 700;
+}
+#account_tabs .wishlistitem .wishlist_desc .crossprice span {
+    text-decoration: line-through;
+}
+#account_tabs .wishlistitem .wishlist_desc .price {
+    font-weight: 700;
+}
+#account_tabs .wishlistitem .rs {
+    overflow: hidden;
+    width: 100%;
+}
+#account_tabs .container {
+    display: block;
+    height: auto;
+    margin: 10px auto;
+    width: 100%;
+}
+#account_tabs .item {
+    background-color: #d5d5d5;
+    border: 1px solid #ababab;
+    color: #424242;
+    cursor: pointer;
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    width: inherit;
+}
+#account_tabs .item span {
+    margin: 0 10px;
+}
+#account_tabs .item:hover {
+    background: none repeat scroll 0 0 #ababab;
+}
+#account_tabs .item-data {
+    border: 1px solid #ccc;
+    display: none;
+    height: auto;
+    width: inherit;
+}
+#account_tabs .active {
+    background: none repeat scroll 0 0 #ececec;
+    color: #000;
+}
+#account_tabs .item-data table {
+    border-collapse: collapse;
+    width: 100%;
+}
+#account_tabs .item-data table tr {
+    text-align: center;
+    vertical-align: top;
+}
+#account_tabs .item-data table tr:first-child {
+    background-color: #d5d5d5;
+    border: 1px solid #ababab;
+}
+#account_tabs .item-data table td {
+    border: 1px solid #c2c2c2;
+    padding: 5px;
+}
+#account_tabs .item-data .status {
+    float: left;
+    width: 500px;
+}
+#account_tabs .item-data .status p {
+    margin: 5px 0;
+}
+#account_tabs .item-data .cancel_order {
+    float: left;
+}
+#account_tabs .item-data .cancel_order input {
+    background: none repeat scroll 0 0 #808080;
+    border: 1px solid #575757;
+    color: #fff;
+    cursor: pointer;
+    font-size: 12px;
+    height: 25px;
+    margin: 2px;
+    padding: 0;
+    width: 100px;
+}
+#account_tabs .item-data .cancel_order input:hover {
+    background: none repeat scroll 0 0 #ababab;
+    box-shadow: 0 1px 2px 1px #989898;
+}
+#account_tabs .item-data .cancel_order input:active {
+    position: relative;
+    top: 1px;
+}
+#account_tabs .right {
+    text-align: right;
+}
+#accounttabMenu {
+    border: 1px solid #d5d5d5;
+    float: left;
+    margin-right: 20px;
+    width: 20%;
+}
+#accounttabContent {
+    border: 1px solid #d5d5d5;
+    color: #444444;
+    float: left;
+    height: auto;
+    min-height: 200px;
+    overflow: auto;
+    padding: 5px;
+    width: 78%;
+}
+#accounttabContent .content {
+    display: none;
+}
+#accounttabContent .actives {
+    display: block;
+}
+#account_tabs .menu li {
+    display: inline-block;
+    list-style: outside none none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+}
+#account_tabs .menu li a {
+    cursor: pointer;
+    display: block;
+    padding-right: 5px;
+    text-align: center;
+    text-decoration: none;
+}
+#account_tabs .menu li a span:hover {
+    color: #04b404;
+}
+#account_tabs .menu li a.actives, .menu li a.actives:hover {
+    line-height: 30px;
+}
+#account_tabs .menu li a.actives span, .menu li a.actives:hover span {
+    color: #04b404;
+    outline: medium none;
+}
+#account_tabs table {
+    border: 1px solid #f2f2f2;
+    border-collapse: collapse;
+}
+#account_tabs td {
+    padding: 5px 0;
+}
+#account_tabs input[type="text"], input[type="number"], input[type="password"], input[type="email"] {
+    font: 12px/19px "Open Sans",Helvetica,Arial,sans-serif;
+    height: 20px;
+    padding: 0 5px;
+    width: 90%;
+}
+#account_tabs input[type="text"]:focus, input[type="number"]:focus, input[type="password"]:focus, input[type="email"]:focus {
+    outline: 1px solid #ff8040;
+    transition: border 0.2s linear 0s, box-shadow 0.2s linear 0s;
+}
+.userimage {
+    margin: 5px;
+}
+.uploadimage {
+}
+.file_browse_wrapper {
+    background: url("../new-images/24_upload.png") no-repeat scroll 0 0 rgba(0, 0, 0, 0);
+    border: medium none;
+    cursor: pointer;
+    height: 28px;
+    opacity: 0.5;
+    overflow: hidden;
+    width: 26px;
+}
+.file_browse_wrapper:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+.file_browse_wrapper:active {
+    opacity: 1;
+}
+.file_browse {
+    margin-left: -145px;
+    opacity: 0;
+}
+.edit {
+    float: right;
+    text-decoration: none;
+    width: 90px;
+}
+.edit a {
+    border-bottom: 1px solid #969696;
+    font-size: 10px;
+    height: 25px;
+    text-transform: uppercase;
+}
+.edit a:hover {
+    border-bottom: 1px solid #ff8040;
+}
+.edit a:active {
+    position: relative;
+    top: 1px;
+}

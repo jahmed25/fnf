@@ -1,0 +1,70 @@
+    
+.addtocartmain{font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; text-align:left}
+.addtocartmain{ width:1020px; margin:0 auto;  min-height:320px; height:auto;  }
+.addtocartmain .cartitem{border-bottom:#BBBBBB solid 1px; height:auto; float:left; width:100%; margin-top: 10px}
+.addtocartmain .head{border-bottom:#424242 solid 2px; float:left; width:1170px; margin-bottom:20px}
+.addtocartmain h1{ float:right; font-weight:600;  line-height:40px;text-transform:uppercase; color:Black}
+.addtocartmain .addtocartmain_img img{width:120px; height:170px; float:left; margin-right:10px; margin-left:10px}
+.addtocartmain .list { color: #818181;
+    float: left;
+    font-size: 14px;
+    margin-right: 30px;
+    text-transform: uppercase;
+    width: 300px;}
+.addtocartmain .list ul{list-style:none;  }
+.addtocartmain .list ul li{ margin-bottom:10px}
+.addtocartmain .list .brand{font-weight:600; color:Maroon}
+.addtocartmain .list .price{text-transform:uppercase;font-size:16px;  color:#060606; }
+.addtocartmain .list .price{margin-right:5px}
+
+.addtocartmain .list .varient {text-transform:uppercase; font-size:12px; margin-top:10px; margin-bottom:10px	}
+.addtocartmain .list .varient span{ margin-right:5px}
+.addtocartmain .list .varient em{ margin-right:20px; color:#FF8000}
+.addtocartmain .list .rem_sfl span{ margin-right:20px;  font-size:12px; text-decoration:none	}
+.addtocartmain .list .rem_sfl span a{ text-decoration:none;color:#424242; text-decoration:underline }
+.addtocartmain .list .rem_sfl span a:hover{color:#FF8000}
+.addtocartmain .estimated {text-transform:uppercase;width:250px; font-size:12px; color:#818181; float:left;}
+.addtocartmain .estimated ul{list-style:square; margin-bottom:10px }
+.addtocartmain .estimated ul li{float:none}
+.addtocartmain .estimated span{color:#424242; border-bottom:2px solid #060606;  }
+.addtocartmain .action a{background:url(../new-images/btn-remove.png) no-repeat; width:50px; font-size:12px; color:#818181; float:left;}
+.addtocartmain .action a{padding-left:15px; line-height:13px}
+.addtocartmain .action a:hover{color:red; cursor:pointer}
+.addtocartmain .totprice {text-transform:uppercase;width:300px; text-align:right; font-size:20px;  color:#060606; float:right;}
+.addtocartmain .totprice span{margin-left:5px}
+.addtocartmain .cont_toshop_tot{width:100%;background:#F7F7F7; height:60px;  float:left; box-shadow: 0px 18px 16px -26px #000 inset;}
+.addtocartmain .cont_toshop{text-align:center; width:700px;float:left;}
+.addtocartmain .cont_toshop  a, .head a{position: relative; margin: 10px 10px 10px;  float:left;   border: 1px solid #DA7C0C;
+  display:inline-block; padding: 6px 40px 7px; border-radius: 4px; border: 1px solid #DDD; color:#FEFEFE; font-size:16px; 
+background: rgba(255,175,75,1);
+background: -moz-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+background: -webkit-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -o-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: linear-gradient(to bottom, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=0 );
+outline:none;
+}
+.addtocartmain .cont_toshop a:hover, .head a:hover{ cursor:pointer;  transition: all 0.3s ease-out 0s;color:#FFFFFF; 
+background: rgba(255,175,75,1);
+background: -moz-linear-gradient(45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -webkit-gradient(left bottom, right top, color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+background: -webkit-linear-gradient(45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -o-linear-gradient(45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -ms-linear-gradient(45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: linear-gradient(45deg, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );outline:none;
+}
+.addtocartmain .cont_toshop a:active, .head a:active{ background: rgba(255,175,75,1);
+background: -moz-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -webkit-gradient(radial, center center, 0px, center center, 100%, , color-stop(0%, rgba(255,175,75,1)), color-stop(100%, rgba(255,146,10,1)));
+background: -webkit-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -o-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: -ms-radial-gradient(center, ellipse cover, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+background: radial-gradient(ellipse at center, rgba(255,175,75,1) 0%, rgba(255,146,10,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffaf4b', endColorstr='#ff920a', GradientType=1 );
+outline:none;}
+
+.addtocartmain .cont_toshop_tot .total{ text-align:right; font-size:20px;  color:#060606; text-transform:uppercase; float:right}
+.addtocartmain .cont_toshop_tot .total .grandtot{ text-align:right; line-height:50px; margin-right:5px}

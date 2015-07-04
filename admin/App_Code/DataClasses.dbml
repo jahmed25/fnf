@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="FNF_DB" Class="DataClassesDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=(local);Initial Catalog=FNF_DB;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="FNF_DBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.PRODUCTS" Member="PRODUCTs">
+    <Type Name="PRODUCT">
+      <Column Name="ProductNewID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="StyleCode" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="MappedChild" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUCode" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKULongDescription" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SKUProductDetails" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SKUClassification" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUCategory" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUCategoryType" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUProductType" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SKUBrand" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="SpecialPrice" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="MRP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BaseCost" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SKUStatus" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Size" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Color" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Material" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="Inventory" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VendorName" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="VendorSKUCode" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="OriginCountry" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="WashCare" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ShippingReturns" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProductDiscount" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProductWeight" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="ProductWarranty" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="TaxCategory" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="MetaTitle" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="MetaKeywords" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="MetaDescription" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="WebsiteSKUStatus" Type="System.String" DbType="VarChar(200)" CanBeNull="true" />
+      <Column Name="RecordStatus" Type="System.String" DbType="VarChar(20)" CanBeNull="true" />
+      <Column Name="VendorCode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="MOP" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="VariantType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="PackQuantity" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CategoryID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CategoryTypeID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="ProductTypeID" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="SizeDataType" Type="System.String" DbType="VarChar(50)" CanBeNull="true" />
+      <Column Name="CategoryTypeUrlName" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="ColorCode" Type="System.String" DbType="VarChar(100)" CanBeNull="true" />
+      <Column Name="PathIndexImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathIndexInternalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathInternaldetailsSmallImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathInternaldetailsHoverImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathInternaldetailsZoomImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathUpperImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathUpperInternalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathUpperInternaldetailsSmallImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathUpperInternaldetailsHoverImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathUpperInternaldetailsZoomImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathLowerImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathLowerInternalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathLowerInternaldetailsSmallImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathLowerInternaldetailsHoverImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathLowerInternaldetailsZoomImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathBackImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathBackInternalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathBackInternaldetailsSmallImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathBackInternaldetailsHoverImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathBackInternaldetailsZoomImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathDimensionalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathDimensionalInternalImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathDimensionalInternaldetailsSmallImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathDimensionalInternaldetailsHoverImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="PathDimensionalInternaldetailsZoomImage" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="Dyna_Attribute" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+      <Column Name="SKUNameHindi" Type="System.String" DbType="VarChar(MAX)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ORDER_DETAILS" Member="ORDER_DETAILs">
+    <Type Name="ORDER_DETAIL">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="SKU" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="PRODUCT_NAME" Type="System.String" DbType="VarChar(256) NOT NULL" CanBeNull="false" />
+      <Column Name="UNIT_PRICE" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="QTY" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="TOTAL" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ORDER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Association Name="ORDER_MASTER_ORDER_DETAIL" Member="ORDER_MASTER" ThisKey="ORDER_ID" OtherKey="ID" Type="ORDER_MASTER" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ORDER_MASTER" Member="ORDER_MASTERs">
+    <Type Name="ORDER_MASTER">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ORDER_NO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="CREATED_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="PAYMINT_METHOD" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="AMOUNT" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="SHIPPING_CHARGE" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="VAT" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="TOTAL_AMOUNT" Type="System.Decimal" DbType="Money NOT NULL" CanBeNull="false" />
+      <Column Name="SHIPPING_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DOCKET_NO" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Association Name="ORDER_MASTER_ORDER_DETAIL" Member="ORDER_DETAILs" ThisKey="ID" OtherKey="ORDER_ID" Type="ORDER_DETAIL" />
+      <Association Name="ORDER_MASTER_ORDER_STATUS" Member="ORDER_STATUS" ThisKey="ID" OtherKey="ORDER_ID" Type="ORDER_STATUS" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ORDER_STATUS" Member="ORDER_STATUS">
+    <Type Name="ORDER_STATUS">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ORDER_ID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="STATUS" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="LAST_MODIFIED_DATE" Type="System.DateTime" DbType="DateTime NOT NULL" CanBeNull="false" />
+      <Column Name="MODIFIED_BY" Type="System.String" DbType="VarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="DESCRIPTION" Type="System.String" DbType="VarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Association Name="ORDER_MASTER_ORDER_STATUS" Member="ORDER_MASTER" ThisKey="ORDER_ID" OtherKey="ID" Type="ORDER_MASTER" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
